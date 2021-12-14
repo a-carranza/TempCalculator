@@ -106,7 +106,6 @@ public class LogTest {
         assert(Log.getCurrentSize() == 9);
         assert(Log.getElement(1) == 3.0);
     }
-
     @Test
     public void add(){
         ThermometerLog Log = new ThermometerLog();
